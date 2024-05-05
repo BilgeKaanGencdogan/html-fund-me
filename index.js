@@ -27,6 +27,7 @@ async function getBalance() {
         const balance = await provider.getBalance(contractAddress)
         console.log(ethers.utils.formatEther(balance))
     }
+    //getBalance
 }
 async function fund() {
     const ethAmount = document.getElementById("ethAmount").value
